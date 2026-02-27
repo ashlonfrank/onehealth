@@ -1,0 +1,108 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Next.js
+.next/
+out/
+
+# Build
+dist/
+build/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Personal health data (NEVER commit actual data files)
+/data/**/*
+!/data/
+!/data/Bloodwork/
+!/data/Bloodwork/.gitkeep
+!/data/Body Scan/
+!/data/Body Scan/.gitkeep
+!/data/Activity/
+!/data/Activity/Whoop/
+!/data/Activity/Whoop/.gitkeep
+!/data/Activity/Apple Health/
+!/data/Activity/Apple Health/.gitkeep
+!/data/Activity/Oura/
+!/data/Activity/Oura/.gitkeep
+!/data/Activity/Fitbit/
+!/data/Activity/Fitbit/.gitkeep
+
+# Local development files
+/rules/
+
+# Internal development docs (not for public)
+CLAUDE.md
+AGENTS.md
+/docs/plans/
+/.claude/
+/.playwright-mcp/
+Ralph_Agent_Use.md
+prompt.md
+/scripts/ralph/
